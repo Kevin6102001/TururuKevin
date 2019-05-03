@@ -55,8 +55,8 @@ header('Content-type: text/html');
 <meta http-equiv="expires" content="0"/>
 <title>Formulario</title>
  
-                
-</head>
+ if($_post['derecha'}){
+ </head>
 <body>
 <image src="http://mant.iesdellanes.org/formulario/Logo.png" >
 <h1>Insertada incidencia numero: ';
@@ -93,6 +93,122 @@ echo ' </h1></p><form action="https://tururu.appspot.com" method="post" enctype=
  
 </body>
 </html>';
+ }else if ($_post{'izquierda'}){
+ </head>
+<body>
+<image src="http://mant.iesdellanes.org/formulario/Logo.png" >
+<h1>Insertada incidencia numero: ';
+	      
+echo $idok;
+echo ' </h1></p><form action="https://tururu.appspot.com" method="post" enctype="multipart/form-data"><p>Numero: <input type="text" name="Incidencia" value="';
+	echo $idok;
+	echo '" size="20"  ></p>';
+        echo'<p>Nombre: <input type="text" name="Nombre" value="';
+	echo $_POST['Nombre'];
+	echo '" size="40"  ></p>
+        <p>Aula: <input type="text" name="Aula" value="';
+	echo $_POST['Aula'];
+		echo '" size="40"></p>
+        <p>Objeto: <input type="text" name="Objeto" value="';
+	 echo $_POST['Objeto'];     
+	      echo '"size="40"></p>
+        <p>Descripcion: <input type="text" name="Descripcion" value="';
+	      echo $_POST['Descripcion'];
+	      echo '"size="40"></p>
+        <p>Fecha: <input type="date" name="Fecha" Id="Fecha" value="';
+	      echo $_POST['Fecha'];
+	      echo'" size="40"></p>
+
+              <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+		<input type="image" name="derecha" src="http://mant.iesdellanes.org/formulario/flechaderecha.png" alt="derecha">
+		<input type="image" name="izquierda" src="http://mant.iesdellanes.org/formulario/flechaizquierda.png" alt="izqierda">
+              </p>
+
+ </form>
+ 
+ 
+</body>
+</html>';
+ }else if($_post{'submit'}){
+ </head>
+<body>
+<image src="http://mant.iesdellanes.org/formulario/Logo.png" >
+<h1>Insertada incidencia numero: ';
+	      
+echo $idok;
+echo ' </h1></p><form action="https://tururu.appspot.com" method="post" enctype="multipart/form-data"><p>Numero: <input type="text" name="Incidencia" value="';
+	echo $idok;
+	echo '" size="20"  ></p>';
+        echo'<p>Nombre: <input type="text" name="Nombre" value="';
+	echo $_POST['Nombre'];
+	echo '" size="40"  ></p>
+        <p>Aula: <input type="text" name="Aula" value="';
+	echo $_POST['Aula'];
+		echo '" size="40"></p>
+        <p>Objeto: <input type="text" name="Objeto" value="';
+	 echo $_POST['Objeto'];     
+	      echo '"size="40"></p>
+        <p>Descripcion: <input type="text" name="Descripcion" value="';
+	      echo $_POST['Descripcion'];
+	      echo '"size="40"></p>
+        <p>Fecha: <input type="date" name="Fecha" Id="Fecha" value="';
+	      echo $_POST['Fecha'];
+	      echo'" size="40"></p>
+
+              <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+		<input type="image" name="derecha" src="http://mant.iesdellanes.org/formulario/flechaderecha.png" alt="derecha">
+		<input type="image" name="izquierda" src="http://mant.iesdellanes.org/formulario/flechaizquierda.png" alt="izqierda">
+              </p>
+
+ </form>
+ 
+ 
+</body>
+</html>';
+ }else{
+ </head>
+<body>
+<image src="http://mant.iesdellanes.org/formulario/Logo.png" >
+<h1>Insertada incidencia numero: ';
+	      
+echo $idok;
+echo ' </h1></p><form action="https://tururu.appspot.com" method="post" enctype="multipart/form-data"><p>Numero: <input type="text" name="Incidencia" value="';
+	echo $idok;
+	echo '" size="20"  ></p>';
+        echo'<p>Nombre: <input type="text" name="Nombre" value="';
+	echo $_POST['Nombre'];
+	echo '" size="40"  ></p>
+        <p>Aula: <input type="text" name="Aula" value="';
+	echo $_POST['Aula'];
+		echo '" size="40"></p>
+        <p>Objeto: <input type="text" name="Objeto" value="';
+	 echo $_POST['Objeto'];     
+	      echo '"size="40"></p>
+        <p>Descripcion: <input type="text" name="Descripcion" value="';
+	      echo $_POST['Descripcion'];
+	      echo '"size="40"></p>
+        <p>Fecha: <input type="date" name="Fecha" Id="Fecha" value="';
+	      echo $_POST['Fecha'];
+	      echo'" size="40"></p>
+
+              <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+		<input type="image" name="derecha" src="http://mant.iesdellanes.org/formulario/flechaderecha.png" alt="derecha">
+		<input type="image" name="izquierda" src="http://mant.iesdellanes.org/formulario/flechaizquierda.png" alt="izqierda">
+              </p>
+
+ </form>
+ 
+ 
+</body>
+</html>';}
+                
+
 
       
       }
